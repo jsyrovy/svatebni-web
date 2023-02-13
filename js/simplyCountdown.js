@@ -214,22 +214,37 @@
                 }
 
                 if (parameters.plural) {
-                    dayWord = days > 1
-                        ? parameters.words.days + parameters.words.pluralLetter
-                        : parameters.words.days;
+                    if (days === 1) {
+                        dayWord = "den";
+                    } else if (days > 1 && days < 5) {
+                        dayWord = "dny";
+                    } else {
+                        dayWord = "dní";
+                    }
 
-                    hourWord = hours > 1
-                        ? parameters.words.hours + parameters.words.pluralLetter
-                        : parameters.words.hours;
+                    if (hours === 1) {
+                        hourWord = "hodina";
+                    } else if (hours > 1 && hours < 5) {
+                        hourWord = "hodiny";
+                    } else {
+                        hourWord = "hodin";
+                    }
 
-                    minuteWord = minutes > 1
-                        ? parameters.words.minutes + parameters.words.pluralLetter
-                        : parameters.words.minutes;
+                    if (minutes === 1) {
+                        minuteWord = "minuta";
+                    } else if (minutes > 1 && minutes < 5) {
+                        minuteWord = "minuty";
+                    } else {
+                        minuteWord = "minut";
+                    }
 
-                    secondWord = seconds > 1
-                        ? parameters.words.seconds + parameters.words.pluralLetter
-                        : parameters.words.seconds;
-
+                    if (seconds === 1) {
+                        secondWord = "sekunda";
+                    } else if (seconds > 1 && seconds < 5) {
+                        secondWord = "sekundy";
+                    } else {
+                        secondWord = "sekund";
+                    }
                 } else {
                     dayWord = parameters.words.days;
                     hourWord = parameters.words.hours;
