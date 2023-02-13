@@ -631,7 +631,7 @@ h1, h2, h3, h4, h5, h6, figure {
     right: auto;
   }
 }
-#fh5co-gallery-list {
+#section-dress-code-list {
   flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
   -moz-flex-wrap: wrap;
@@ -646,7 +646,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0;
   width: 100%;
 }
-#fh5co-gallery-list li {
+#section-dress-code-list li {
   display: block;
   padding: 0;
   margin: 0 0 10px 1%;
@@ -664,18 +664,18 @@ h1, h2, h3, h4, h5, h6, figure {
   border-radius: 7px;
 }
 @media screen and (max-width: 480px) {
-  #fh5co-gallery-list li {
+  #section-dress-code-list li {
     margin-left: 0;
   }
 }
-#fh5co-gallery-list li a {
+#section-dress-code-list li a {
   min-height: 400px;
   padding: 2em;
   position: relative;
   width: 100%;
   display: block;
 }
-#fh5co-gallery-list li a:before {
+#section-dress-code-list li a:before {
   position: absolute;
   top: 0;
   left: 0;
@@ -692,10 +692,10 @@ h1, h2, h3, h4, h5, h6, figure {
   border-radius: 7px;
   background: rgba(0, 0, 0, 0.2);
 }
-#fh5co-gallery-list li a:hover:before {
+#section-dress-code-list li a:hover:before {
   background: rgba(0, 0, 0, 0.5);
 }
-#fh5co-gallery-list li a .case-studies-summary {
+#section-dress-code-list li a .case-studies-summary {
   width: auto;
   bottom: 2em;
   left: 2em;
@@ -704,37 +704,37 @@ h1, h2, h3, h4, h5, h6, figure {
   z-index: 100;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-gallery-list li a .case-studies-summary {
+  #section-dress-code-list li a .case-studies-summary {
     bottom: 1em;
     left: 1em;
     right: 1em;
   }
 }
-#fh5co-gallery-list li a .case-studies-summary span {
+#section-dress-code-list li a .case-studies-summary span {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 13px;
   color: rgba(255, 255, 255, 0.7);
 }
-#fh5co-gallery-list li a .case-studies-summary h2 {
+#section-dress-code-list li a .case-studies-summary h2 {
   color: #fff;
   margin-bottom: 0;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-gallery-list li a .case-studies-summary h2 {
+  #section-dress-code-list li a .case-studies-summary h2 {
     font-size: 20px;
   }
 }
-#fh5co-gallery-list li.one-third {
+#section-dress-code-list li.one-third {
   width: 32.3%;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-gallery-list li.one-third {
+  #section-dress-code-list li.one-third {
     width: 49%;
   }
 }
 @media screen and (max-width: 480px) {
-  #fh5co-gallery-list li.one-third {
+  #section-dress-code-list li.one-third {
     width: 100%;
   }
 }
@@ -991,26 +991,26 @@ form label {
 }
 
 #fh5co-testimonial,
-#fh5co-services,
-#fh5co-started,
+#section-place,
+#section-contact,
 #fh5co-footer,
 #fh5co-event,
-#fh5co-couple-story,
-#fh5co-couple,
-#fh5co-gallery,
+#section-schedule,
+#section-hello,
+#section-dress-code,
 .fh5co-section {
   padding: 7em 0;
   clear: both;
 }
 @media screen and (max-width: 768px) {
   #fh5co-testimonial,
-  #fh5co-services,
-  #fh5co-started,
+  #section-place,
+  #section-contact,
   #fh5co-footer,
   #fh5co-event,
-  #fh5co-couple-story,
-  #fh5co-couple,
-  #fh5co-gallery,
+  #section-schedule,
+  #section-hello,
+  #section-dress-code,
   .fh5co-section {
     padding: 3em 0;
   }
@@ -1327,10 +1327,10 @@ form label {
   margin-bottom: 10px;
 }
 
-#fh5co-started {
+#section-contact {
   position: relative;
 }
-#fh5co-started .overlay {
+#section-contact .overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -1338,13 +1338,13 @@ form label {
   bottom: 0;
   background: rgba(0, 0, 0, 0.4);
 }
-#fh5co-started .fh5co-heading h2 {
+#section-contact .fh5co-heading h2 {
   color: #fff;
 }
-#fh5co-started .fh5co-heading p {
+#section-contact .fh5co-heading p {
   color: rgba(255, 255, 255, 0.5);
 }
-#fh5co-started .form-control {
+#section-contact .form-control {
   background: rgba(255, 255, 255, 0.2);
   border: none !important;
   color: #fff;
@@ -1354,24 +1354,24 @@ form label {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-#fh5co-started .form-control::-webkit-input-placeholder {
+#section-contact .form-control::-webkit-input-placeholder {
   color: #fff;
 }
-#fh5co-started .form-control:-moz-placeholder {
+#section-contact .form-control:-moz-placeholder {
   /* Firefox 18- */
   color: #fff;
 }
-#fh5co-started .form-control::-moz-placeholder {
+#section-contact .form-control::-moz-placeholder {
   /* Firefox 19+ */
   color: #fff;
 }
-#fh5co-started .form-control:-ms-input-placeholder {
+#section-contact .form-control:-ms-input-placeholder {
   color: #fff;
 }
-#fh5co-started .form-control:focus {
+#section-contact .form-control:focus {
   background: rgba(255, 255, 255, 0.3);
 }
-#fh5co-started .btn {
+#section-contact .btn {
   height: 54px;
   border: none !important;
   background: #F14E95;
@@ -1382,17 +1382,17 @@ form label {
   padding-left: 50px;
   padding-right: 50px;
 }
-#fh5co-started .form-inline .form-group {
+#section-contact .form-inline .form-group {
   width: 100% !important;
   margin-bottom: 10px;
 }
-#fh5co-started .form-inline .form-group .form-control {
+#section-contact .form-inline .form-group .form-control {
   width: 100%;
 }
-#fh5co-started .fh5co-heading {
+#section-contact .fh5co-heading {
   margin-bottom: 30px;
 }
-#fh5co-started .fh5co-heading h2 {
+#section-contact .fh5co-heading h2 {
   margin-bottom: 0;
 }
 
