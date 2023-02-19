@@ -52,12 +52,12 @@
 				</div>
 				<div class="col-xs-10 text-right menu-1">
 					<ul>
-						<li><a href="#section-hello">Ahoj!</a></li>
-						<li><a href="#section-schedule">Harmonogram</a></li>
-						<li><a href="#section-dress-code">Dress code</a></li>
-						<li><a href="#section-place">Místo</a></li>
-						<li><a href="#section-info">Informace</a></li>
-						<li><a href="#section-contact">Dorazíte?</a></li>
+						<li><a onclick="hideMenu();" href="#section-hello">Ahoj!</a></li>
+						<li><a onclick="hideMenu();" href="#section-schedule">Harmonogram</a></li>
+						<li><a onclick="hideMenu();" href="#section-dress-code">Dress code</a></li>
+						<li><a onclick="hideMenu();" href="#section-place">Místo</a></li>
+						<li><a onclick="hideMenu();" href="#section-info">Informace</a></li>
+						<li><a onclick="hideMenu();" href="#section-contact">Dorazíte?</a></li>
 					</ul>
 				</div>
 			</div>
@@ -308,7 +308,6 @@
 					<p>Děti také (venkovní i vnitřní dětský koutek, pískoviště, trampolína a zvířátka).</p>
 					<p>Odvoz zajištěn.</p>
 					<p>Jste zváni na obřad i raut (vše proběhne na jednom místě).</p>
-					<p>Možnost přespání (pár postelí je zatím volných, dále je možnost spát na zemi nebo ve vlastním stanu).</p>
 				</div>
 			</div>
 		</div>
@@ -366,6 +365,11 @@
 		enableUtc: false,
 		plural: true,
 	});
+
+	function hideMenu() {
+		$('body').removeClass('offcanvas');
+		$('.js-fh5co-nav-toggle').removeClass('active');
+	}
 	</script>
 	</body>
 </html>
