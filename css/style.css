@@ -1254,9 +1254,31 @@ form label {
     margin-bottom: 40px;
 }
 
+.names {
+    font-family: "Sacramento", Arial, serif;
+    color: #F14E95;
+    font-size: 30px;
+}
+
+.names-desktop {
+    display: block;
+}
+
+.names-mobile {
+    display: none;
+}
+
 @media screen and (max-width: 768px) {
     .feature-center {
         margin-bottom: 50px;
+    }
+
+    .names-desktop {
+        display: none;
+    }
+
+    .names-mobile {
+        display: block;
     }
 }
 
