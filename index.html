@@ -346,12 +346,13 @@
 <script src="js/main.js"></script>
 
 <script>
-    const d = new Date(2023, 6, 1);
+    const d = new Date(2023, 6, 1, 14);
 
     simplyCountdown('.simply-countdown-one', {
         year: d.getFullYear(),
         month: d.getMonth(),
         day: d.getDate(),
+        hours: d.getHours(),
         enableUtc: false,
         plural: true,
     });
